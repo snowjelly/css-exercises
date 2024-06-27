@@ -17,3 +17,14 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+.inflate {
+  transition: transform 250ms ease-out;
+  transition-delay: 25ms;
+}
+
+.inflate:hover {
+  transition: transform 250ms ease-in;
+  transition-delay: 25ms;
+  transform: scale(1.2);
+}
